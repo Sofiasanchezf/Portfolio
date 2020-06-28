@@ -3,9 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -188,9 +185,55 @@ box-shadow: 0px 0px 5px 0px rgba(168,168,168,1);
 .skills {
     background-color: #f2f2f2;
 }
+
+.contactame {
+    background-color: rgb(46, 46, 46);
+}
+
+.mi-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: 80%;
+}
+.mi-formulario > form > input {
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    padding: 0.4em;
+    width: 100%;
+}
+
+.mi-formulario > form > textarea {
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    width: 100%;
+    resize: none;
+}
+
+.mi-formulario > form >input:last-child{
+    background-color: #92FE9D;
+    border: 1px solid #92FE9D;
+    padding: 1em;
+    border-radius: 2px;
+}
+
+
 /* FOOTER */
 
 footer{
-    background-color: #f2f2f2;
-    height: 100vh;
+    background-color: rgb(46, 46, 46);
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > h2 {
+    color: white;
+    font-size: 15pt;
+    text-align: center;
 }
