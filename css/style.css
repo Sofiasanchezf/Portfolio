@@ -190,6 +190,11 @@ a.pro {
     color: black;
 }
 
+a.pro-movil {
+    text-decoration: none;
+    color: black;
+}
+
 .pro {
     height: 200px;
     width: 50%;
@@ -220,6 +225,28 @@ a.pro {
     background-color: #B8FFBF;
 }
 
+.pro-movil {
+    height: 200px;
+    width: 50%;
+    max-width: 300px;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    margin: 1em;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(168, 168, 168, 1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(168, 168, 168, 1);
+    box-shadow: 0px 0px 5px 0px rgba(168, 168, 168, 1);
+}
+
+
+
+
 
 .img-proyecto {
     display: flex;
@@ -228,6 +255,12 @@ a.pro {
     height: 70%;
 }
 .pro img {
+    height: 100px;
+    margin-bottom: 1em;
+    /* height: 50px; */
+}
+
+.pro-movil img {
     height: 100px;
     margin-bottom: 1em;
     /* height: 50px; */
@@ -292,10 +325,11 @@ a.pro {
     color: black;
 }
 
+
 .f-colum > p {
     margin-bottom: 2em;
 }
-.f-colum > div > a :hover {
+.a-movil :hover {
     transform: scale(1.4,1.4);
     color: #00c9ff;
     
@@ -347,14 +381,24 @@ footer > h2 {
         min-width: 150px;
         height: 200px;
     }
-
+    .pro-movil {
+        min-width: 150px;
+        height: 200px;
+    }
     .img-proyecto {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 70%;
     }
+
     .pro img {
+        height: 100px;
+        margin-bottom: 1em;
+        
+    }
+
+    .pro-movil img {
         height: 100px;
         margin-bottom: 1em;
         
@@ -370,7 +414,17 @@ footer > h2 {
         margin-bottom: 1em;
     }
 
+    .pro-movil img {
+        width: 100px;
+        height: 70px;
+        margin-bottom: 1em;
+    }
+
     .pro {
+        height: 200px;
+    }
+
+    .pro-movil {
         height: 200px;
     }
 
@@ -390,7 +444,20 @@ footer > h2 {
         width: 100%;
     }
 
+    .pro-movil {
+        flex-direction: row;
+        height: 150px;
+        width: 100%;
+    }
+
     .pro img {
+
+        margin-bottom: 0;
+        margin-right: 1em;
+    }
+
+    
+    .pro-movil img {
 
         margin-bottom: 0;
         margin-right: 1em;
@@ -416,6 +483,12 @@ footer > h2 {
     }
 
     .pro {
+        margin: 0.5em;
+        width: 100%;
+        height: 100px;
+    }
+    
+    .pro-movil {
         margin: 0.5em;
         width: 100%;
         height: 100px;
